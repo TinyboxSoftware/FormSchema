@@ -1,0 +1,19 @@
+{
+  "formName": "basic schema",
+  "formId": "basic-form",
+  "action": "/api/some/route",
+  "method": "POST",
+  "children": {
+    "name": {
+      "name": "Name",
+      "label": "What's your name?",
+      "type": "input:text",
+      "next": "email"
+    },
+    "email": {
+      "name": "Email",
+      "label": "What's your email?",
+      "input": "type:email"
+    }
+  }
+}
